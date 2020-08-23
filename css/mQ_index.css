@@ -1,0 +1,228 @@
+/*// Small devices (landscape phones, 576px and up)*/
+/*PARA PANTALLAS DE MÓVIL EN HORIZONTAL*/
+@media (min-width: 576px) {
+	.logo{
+		display: inline-block;
+		box-sizing: content-box;
+		margin-left: 5vw;
+	}
+	#logo{
+		width: 83px;
+		height: 83px;
+		border-radius: 50%;
+	}
+	header>nav{
+		height: 15vh;
+		}
+	nav>div{
+		height: 13vh;
+		border-radius: 5%;
+		font-size: 1.6rem;
+		font-family: 'Amatic SC', cursive;
+		text-align: center;
+		justify-content: center;
+	}
+	#section1 img{
+		width: 240px;
+		height: 240px;
+		border-radius: 50%;
+	}
+	.presentacion{
+		top: 50vh;
+	}
+	#section4>div{
+		margin-top: 7vh;
+	}
+}
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+	#photo1{
+		top: 42vh;
+		height: 34vh;
+		margin-left: 4vw;
+	}
+	#section1 img{
+		width: 300px;
+		height: 300px;
+		border-radius: 50%;
+	}	
+	.presentacion h1{
+		font-size: 2.8rem;
+	}
+	.presentacion{
+		top: 41vh;
+		right: 2vw;
+		font-size: 1.6rem;
+	}
+	#section2{
+		height: 95vh;
+	}
+	#section2 h1{
+		margin-top: 5vh;
+		font-size: 3.3rem;
+	}
+	#section2 p{
+		margin-top: 7vh;
+		width: 80vw;
+		font-size: 1.9rem;
+	}
+	#bs2{
+		top:75vh;
+		height: 10vh;
+	}	
+	#section3 h1{
+		margin-top: 5vh;
+		font-size: 3.3rem;		
+	}
+	#section3 p{
+		width: 87vw;
+		margin-top: 8vh;
+		font-size: 1.9rem;		
+	}
+	#section4 h1{
+		margin-top: 5vh;
+		font-size: 3.2rem;
+	}
+	#section4 p{
+		margin-top: 6vh;
+		font-size: 1.9rem;
+	}
+	#bs4{
+		top: 48vh;
+		height: 15vh;
+	}
+}
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+	#section1{
+		margin-top: 2vh;
+		height: 80.3vh;
+	}
+	#section1 h1{
+		margin-top: 1vh;
+	}
+	.name1{
+		position: absolute;
+		width: 30vw;
+		left: 15vw;		
+		font-size: 4rem;
+	}
+	.name2{
+		position: absolute;
+		top: 20vh;
+		width: 50vw;
+		left: 40vw;
+		font-size: 6rem;
+	}
+	#photo1{
+		top: 34vh;
+		margin-left: 5vw;
+	}
+	#section1 img{
+		width: 320px;
+		height: 320px;
+	}
+	.presentacion h1{
+		font-size: 2.9rem;
+		margin-bottom: 1vh;
+	}
+	.presentacion{
+		top: 46vh;
+		width: 48vw;
+		right: 7vw;
+		font-size: 1.6rem;
+	}
+	#section2 h1{
+		font-size: 3.8rem;
+	}
+	#section2 p{
+		width: 83vw;
+		font-size: 2.2rem;
+	}
+	#section2>div{
+		margin-top: 10vh;
+	}
+	#section3 h1{
+		margin-top: 2vh;
+		font-size: 3.6rem;		
+	}
+	#section3 p{
+		margin-top: 5vh;
+		width: 87vw;
+		font-size: 2.3rem;		
+	}
+	#bs3{
+		top: 65vh;
+	}
+	#section4 h1{
+		margin-top: 2vh;
+		font-size: 4rem;		
+	}
+	#section4 p{
+		margin-top: 3.6vh;
+		margin-left: 2.2vw;
+		width: 96%;		
+		font-size: 2.1rem;
+	}
+	#bs4{
+		top: 50vh;
+		left: 21vw;
+	}
+}
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+	#section1{
+		margin-top: 3vh;
+	}
+	.name1{
+		font-size: 4.5rem;
+		left: 13vw;
+		top: 18vh;
+	}
+	.name2{
+		font-size: 6.5rem;
+		top:14.6vh;
+		left: 37vw;
+	}
+	#photo1{
+		top: 39vh;
+		margin-left: 9vw;
+	}
+	#section1 img{
+		width: 330px;
+		height: 330px;
+	}
+	.presentacion h1{
+		font-size: 3.2rem;
+	}	
+	.presentacion{
+		top: 43vh;
+		right: 8vw;
+		font-size: 1.8rem;
+	}
+	#section2 h1{
+		margin-top: 3vh;
+		font-size: 4rem;
+	}
+	#section2 p{
+		font-size: 2.1rem;
+	}
+	#bs2{
+		top:68vh;
+	}	
+	#section3 h1{
+		margin-top: 3vh;
+	}
+	#bs3{
+		top: 65vh;
+		left:14vw;
+	}
+	#section4 h1{
+		font-size: 3.9rem;		
+	}
+	#bs4{
+		top: 45vh;
+		left: 21vw;
+		height: 13vh;
+	}	
+}

@@ -1,0 +1,106 @@
+/*// Small devices (landscape phones, 576px and up)*/
+/*PARA PANTALLAS DE MÓVIL EN HORIZONTAL*/
+@media (min-width: 576px) { 
+	.logo{
+		display: inline-block;
+		box-sizing: content-box;
+		margin-left: 5vw;
+	}
+	#logo{
+		width: 83px;
+		height: 83px;
+		border-radius: 50%;
+	}
+	header>nav{
+		height: 15vh;
+		}
+	nav>div{
+		height: 13vh;
+		border-radius: 5%;
+		font-size: 1.6rem;
+		font-family: 'Amatic SC', cursive;
+		text-align: center;
+		justify-content: center;
+		}
+	.Experiencia_laboral{
+		width: 20vw;
+		margin-left: 7vw;
+		}
+	.Info{
+		width: 20vw;
+		margin-left: 3vw;
+	}
+	.ContactMe{
+		width: 20vw;
+		margin-left: 3vw;
+	}
+	h1{
+		font-size: 4.5rem;
+	}
+	p{
+		font-size: 1.15rem;
+	}
+	span{
+		font-size: 1.2rem;
+	}
+	img{
+		width: 400px;
+	}
+	.imgFrame{
+		margin: 1vh 0vw 8vw 0vw;
+	}
+	iframe{
+		width:500px;
+		height:470px;
+	}
+}
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+	h1{
+		font-size: 5rem;
+	}
+	p{
+		font-size: 1.3rem;
+	}
+	span{
+		font-size: 1.2rem;
+	}
+	iframe{
+		width:630px;
+		height:490px;
+	}
+}
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+	img{
+		width:500px;
+	}
+	iframe{
+		width: 800px;
+		height: 530px;
+	}
+	.fav{
+		display:flex;
+		flex-direction: row;
+	}
+	.imgContainer{
+		margin: 1% 3%;
+	}
+	img{
+		width: 400px;
+	}
+	iframe{
+		width: 500px;
+		height: 400px;
+	}
+}
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+	img{
+		width: 450px;
+	}
+	iframe{
+		width: 570px;
+		height: 400px;
+	}
+}

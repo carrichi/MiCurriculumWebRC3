@@ -1,0 +1,117 @@
+/*// Small devices (landscape phones, 576px and up)*/
+/*PARA PANTALLAS DE MÓVIL EN HORIZONTAL*/
+@media (min-width: 576px) { 
+	.logo{
+		display: inline-block;
+		box-sizing: content-box;
+		margin-left: 5vw;
+	}
+	#logo{
+		width: 83px;
+		height: 83px;
+		border-radius: 50%;	
+	}
+	header>nav{
+		height: 15vh;
+	}
+	nav>div{
+		height: 13vh;
+		border-radius: 5%;
+		font-size: 1.6rem;
+		font-family: 'Amatic SC', cursive;
+		text-align: center;
+		justify-content: center;
+		}
+	#sEA p{
+		font-size: 1.3rem;
+	}
+	#balon, #sec{
+		width: 180px;
+	}
+	#imgChilim, #imgprepa, #imgfi,#imgPrincipal>img{
+		width: 500px;
+	}
+}
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+	h1{
+		font-size: 5.3rem;
+		margin: 4% 0%;
+	}
+	.enlaces a{
+		display: none;
+	}
+	#sEL{
+		margin-top: 5%;
+	}
+	#sEL h2{
+		font-size: 3.9rem;
+	}
+	#sEA h2{
+		font-size: 3.9rem;
+	}
+	#sEA h3{
+		font-size: 1.7rem;
+	}
+	#balon, #sec{
+		width: 190px;
+	}
+	#imgprepa, #imgfi,#imgPrincipal>img{
+		width: 600px;
+	}
+	#imgChilim{
+		width: 600px;
+		margin: 0% 0% 5% 0%;
+	}
+}
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+	.container{
+		flex-direction: row;
+		align-content: center;
+		justify-content: center;
+		margin-top: 3%;
+	}
+	#Experience{
+		align-items: center;
+		justify-content: center;
+		display: flex;
+		margin-left: 7vw;
+		margin-right: 2vw;
+	}
+	h1{
+		font-size: 5.6rem;
+	}
+	#imgPrincipal{
+		margin-right: 8vw; 
+	}
+	#imgPrincipal>img{
+		width: 650px;
+	}
+	#sEL p{
+		font-size: 1.5rem;
+	}
+	#sEA p{
+		font-size: 1.5rem;
+	}
+	#imgLaComer, #imgLaPista{
+		width: 230px;
+		height: 230px;
+		margin: 4%;
+	}
+	#imgChilim{
+		width: 650px;
+	}
+	#imgprepa, #imgfi{
+		width: 700px;
+	}
+}
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+	#Experience{
+		margin-right: 5vw;
+	}
+	h1{
+		font-size: 7rem;
+	}
+}

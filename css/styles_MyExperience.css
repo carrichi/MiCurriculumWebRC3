@@ -1,0 +1,232 @@
+/*GENERALES*/
+	*{
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+	}
+	html{
+		font-size: 100%;
+		color: black;
+	}
+	body{
+		background-color: #abedd8;
+		zoom: 100%;
+	}
+	section{
+		position: relative;
+		width: 100%;
+		box-sizing: content-box;
+	}
+	span{
+		background-color: white;
+		color:black;
+	}
+	span:hover{
+		background-color: gray;
+		color: white;
+		cursor:pointer;
+	}
+	a{
+		text-decoration: none;
+	}
+	a:hover{
+		color:white;
+	}
+	p{
+		font-family: 'Nunito Sans', sans-serif;
+	}
+/*ENCABEZADO*/
+	/*Estructura de la barra*/
+	#containerHeader{
+		display: flex;
+		flex-direction: row;
+		box-sizing: content-box;
+		text-align: center;
+		align-items: center;
+		width: 100%;
+		height: 15vh;
+		background-color: #46cdcf;
+		}
+	.logo{
+		display: none;
+	}
+	.logo p{
+		position: absolute;
+		color: white;
+	}
+	/*CONTENEDOR DE LOS ENLACES*/
+	#containerA{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		width: 100%;
+	}
+	/*CONTENEDOR INDIVIDUAL DE LOS ENLACES*/
+	#aEL,#aInfo,#aCM{
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		height: 10vh;
+		margin:1vh 3vw;
+		padding: 6vh 2vw;
+		border-radius: 3%;
+		font-size: 1.7rem;
+		font-family: 'Amatic SC', cursive;
+		text-decoration: none;
+		color: #112d4e;
+	}
+	/*HOVER DE LOS ENLACES*/
+	#aEL:hover,#aInfo:hover,#aCM:hover{
+		background-color: #3d84a8;
+		color:#f9f7f7;
+	}
+/*PRINCIPAL*/
+	h1{
+		margin-top: 3vh;
+		font-family: 'Amatic SC', cursive;
+		font-size: 5rem;
+		text-align: center;
+	}
+	.enlaces{
+		display: flex;
+		justify-content: center;
+	}
+	.enlaces a{
+		margin:3vh 10vw;
+		font-family: 'Amatic SC', cursive;
+		font-size: 2.6rem;
+		text-align: center;
+		color:#112d4e;	
+	}
+	.enlaces a:hover{
+		color:#f9f7f7;
+	}
+	.container{
+		display: flex;
+		flex-direction: column;
+	}
+/*EXPERIENCIA LABORAL*/
+	#sEL h2{
+		margin: 4vh 1vw; 
+		font-family: 'Amatic SC', cursive;
+		text-align: center;
+		font-size: 3rem;
+	}
+	.comer,.pista{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	#sEL p{
+		text-align: justify;
+		padding:4%;
+		font-size: 1.3rem;
+	}
+	.chilim{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+/*EXPERIENCIA ACADÉMICA*/
+	#sEA h2{
+		margin-bottom: 3vh;
+		font-family: 'Amatic SC', cursive;
+		text-align: center;
+		font-size: 3rem;
+	}
+	#sEA h3{
+		font-family: 'Nunito Sans', sans-serif;
+		font-size: 1.5rem;
+		margin:3% 3%;
+	}
+	#sEA p{
+		text-align: justify;
+		font-size: 1.2rem;
+		padding: 1% 5%;
+	}
+	.imgmpp{
+		display: flex;
+		align-content: center;
+		justify-content: center; 
+	}
+	.imgenp{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.unam{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;	
+	}
+/*IMÁGENES*/
+	#imgPrincipal{
+		display: flex;
+		justify-content: center;
+	}
+	#imgPrincipal>img{
+		width: 460px;
+	}
+	#imgLaComer, #imgLaPista{
+		border-radius: 10%;
+		width: 200px;
+		height: 200px;
+		margin: 2%;
+	}
+	#balon, #sec{
+		width: 150px;
+		margin:4% 5%;
+	}
+	#imgChilim, #imgprepa, #imgfi{
+		width: 460px;
+		margin: 4% 0%;
+	}
+/*PIE DE PÁGINA*/
+	footer{
+		position: relative;
+		height: 27vh;
+		background-color: #112d4e;
+		color:#f9f7f7;
+	}
+	footer>p{
+		padding: 2vh;
+		text-align: center;
+	}
+	footer>a{
+		display: block;
+		text-align: center;		
+		font-family: 'Nunito Sans', sans-serif;
+		font-weight: bold;
+		color:#f9f7f7;
+		text-decoration: none;
+	}
+	footer>a:hover{
+		background-color: #dbe2ef;
+		color:#112d4e;
+	}
+	.SocialMedia{
+		display: flex;
+		justify-content: center;
+	}
+	.SocialMedia img{
+		width: 38px;
+		margin:1.3vh 1vw;
+	}
+	footer>div{
+		display: block;
+		text-align: center;
+	}
+	#MyDiaryLife{
+		background-color: #112d4e; 
+		color:#dbe2ef;
+	}
+	#MyDiaryLife:hover{
+		background-color: #abedd8;
+		font-weight: bold;
+		color: #3f72af;
+		cursor: progress;
+	}

@@ -1,0 +1,197 @@
+/*GENERALES*/
+	*{
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+	}
+	html{
+		font-size: 100%;
+		color: black;
+	}
+	body{
+		background-color: #bbe1fa;
+		zoom: 100%;
+	}
+	section{
+		position: relative;
+		width: 100%;
+		box-sizing: content-box;
+	}
+	span:hover{
+		background-color: gray;
+		color: white;
+		cursor:pointer;
+	}
+	a{
+		text-decoration: none;
+	}
+	a:hover{
+		color:white;
+	}
+/*ENCABEZADO*/
+	/*Estructura de la barra*/
+	#containerHeader{
+		display: flex;
+		flex-direction: row;
+		box-sizing: content-box;
+		text-align: center;
+		align-items: center;
+		width: 100%;
+		height: 15vh;
+		background-color: #3282b8;
+		}
+	.logo{
+		display: none;
+	}
+	.logo p{
+		position: absolute;
+		color: white;
+	}
+	/*CONTENEDOR DE LOS ENLACES*/
+	#containerA{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		width: 100%;
+	}
+	/*CONTENEDOR INDIVIDUAL DE LOS ENLACES*/
+	#aEL,#aInfo,#aCM{
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		height: 10vh;
+		margin:1vh 3vw;
+		padding: 6vh 2vw;
+		border-radius: 3%;
+		font-size: 1.7rem;
+		font-family: 'Amatic SC', cursive;
+		text-decoration: none;
+		color: #112d4e;
+	}
+	/*HOVER DE LOS ENLACES*/
+	#aEL:hover,#aInfo:hover,#aCM:hover{
+		background-color: #bbe1fa;
+		color:#0f4c75;
+	}
+/*CUERPO DEL FORMULARIO*/
+	h1{
+		margin-top: 3vh;
+		text-align: center;
+		font-family: 'Amatic SC', cursive;
+		font-size: 4rem;				
+	}
+	form{
+		padding: 4vw;
+	}
+	fieldset{
+		padding: 3vw;
+	}
+	legend{
+		font-family: 'Amatic SC', cursive;		
+		font-size: 2.1rem;
+	}
+	ul{
+		list-style: none;
+	}
+	.personalData label{
+		font-family: 'Nunito Sans', sans-serif;
+		font-size: 1.4rem;
+	}
+	/*Contenido del nombre y así*/
+	#name, #email{
+		width: 70vw;
+		margin: 1vh 5vw;
+		padding: 0.2vh 2vw;
+		font-family: 'Nunito Sans', sans-serif;
+		font-size: 1.3rem;		
+	}
+	#phone{
+		width: 40.8vw;
+		margin: 1vh 5vw;
+		padding: 0.2vh 2vw;
+		font-family: 'Nunito Sans', sans-serif;
+		font-size: 1.3rem;		
+	}
+	.question p{
+		display: flex;
+		justify-content: center;
+		font-family: 'Nunito Sans', sans-serif;
+	}
+	.question label{
+		padding: 0vh 5vw; 
+		font-size: 1.3rem;
+	}
+	.extras{
+		font-family: 'Amatic SC', cursive;
+		font-size: 2rem;				
+	}
+	.questionExtra{
+		margin: 2vh 0vw;
+	}
+	textarea{
+		font-family: 'Nunito Sans', sans-serif;
+		font-size: 1.3rem;	
+		width: 100%;
+	}
+	form>p{
+		display: flex;
+		justify-content: center;
+	}
+	button{
+		margin-top: 2vh;
+		height: 8vh;
+		width: 20vw;
+		font-family: 'Nunito Sans', sans-serif;
+		font-size: 1rem;
+	}
+	button:hover{
+		background-color: #0f4c75;
+		color: #f9f7f7;
+	}
+/*PIE DE PÁGINA*/
+	footer{
+		position: relative;
+		height: 27vh;
+		background-color: #1b262c;
+		color:#f9f7f7;
+		font-family: 'Nunito Sans', sans-serif;
+	}
+	footer>p{
+		padding: 2vh;
+		text-align: center;
+	}
+	footer>a{
+		display: block;
+		text-align: center;		
+		font-family: 'Nunito Sans', sans-serif;
+		font-weight: bold;
+		color:#f9f7f7;
+		text-decoration: none;
+	}
+	footer>a:hover{
+		background-color: #bbe1fa;
+		color:#1b262c;
+	}
+	.SocialMedia{
+		display: flex;
+		justify-content: center;
+	}
+	.SocialMedia img{
+		width: 38px;
+		margin:1.3vh 1vw;
+	}
+	footer>div{
+		display: block;
+		text-align: center;
+	}
+	#MyDiaryLife{
+		background-color: #1b262c; 
+		color:#dbe2ef;
+	}
+	#MyDiaryLife:hover{
+		background-color: #bbe1fa;
+		font-weight: bold;
+		color: #0f4c75;
+		cursor: progress;
+	}
